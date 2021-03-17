@@ -1,8 +1,8 @@
-document.getElementById('change-image') .addEventListener('click', image)
-document.getElementById('change-text')    .addEventListener('click', text)
-document.getElementById('hide').addEventListener('click', hide)
-document.getElementById('show').addEventListener('click', show)
-document.getElementById('bg').addEventListener('click', background)
+document.getElementById('change-image')       .addEventListener('click',image)
+document.getElementById('change-text')        .addEventListener('click',text)
+document.getElementById('hide')               .addEventListener('click',hide)
+document.getElementById('show')               .addEventListener('click',show)
+document.getElementById('bg')                 .addEventListener('click',background)
 
 function image () {
   document.getElementById('picture').src = 'images/dog.jpg'
@@ -21,5 +21,5 @@ function show () {
 }
 
 function background () {
-   document.body.style.backgroundColor='blue'
+  document.body.style.backgroundColor = 'blue'
 }
